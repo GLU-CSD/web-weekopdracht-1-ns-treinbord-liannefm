@@ -4,6 +4,7 @@
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid #000;
+    opacity: .5;
 }
 
 #left{
@@ -16,15 +17,74 @@
 #middle {
     width: 568px;
     height: 339px;
-    background-color: rgb(0, 0, 106);
+    background-color: #035ce9;
     padding: 35px;
     box-sizing: border-box;
     border: 2px solid #000;
 }
 
+#vierkantmidden {
+    width: 480px;
+    height: 240px;
+    background-color: white;
+    margin-left:5px;
+    margin-top:-8px;
+}
+
 #right{
     width:128px;
     height: 335px;
-    background-color: rgb(0, 0, 106);
+    background-color: #035ce9;
     border: 2px solid #000;
+}
+
+#vierkantrechts span#achttien{
+    position: absolute;
+    top: 64px;
+    left: 1125px;
+    font-size: 66px;
+    letter-spacing: -6px;
+    font-weight: bold;
+    color: #035ce9;
+}
+
+#vierkantrechts span#spoor{
+    position: absolute;
+    top: 47px;
+    left: 1143px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #035ce9;
+}
+
+#vierkantrechts{
+    width: 96px;
+    height: 96px;
+    background-color: white;
+    margin-left:15px;
+    margin-top:30px;
+    font-size:48px;
+}
+
+#vierkantrechts span {
+    position: absolute;
+    top: 73px;
+    left: 1190px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #035ce9;
+}
+
+#kleinblauwvierkantje{
+    width:20px;
+    height:20px;
+    margin-left:0;
+    margin-top:0;
+    background-color: #035ce9;
+}
+
+body {
+    background-image: url("https://gluwebdev.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0216a67a-859e-4730-996f-5d51b31fa395%2Fa139fca1-34b3-4d4f-98f2-f66dad12afdd%2FNSbord.png?table=block&id=b0913567-cbfe-45b3-b7c4-badfe7b019c7&spaceId=0216a67a-859e-4730-996f-5d51b31fa395&width=1420&userId=&cache=v2");
+    background-repeat: no-repeat;
+    background-position: 165px -145px
 }
