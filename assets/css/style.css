@@ -1,13 +1,13 @@
-#container{
+#container {
     width: 936px;
     display: flex;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid #000;
-    opacity: .5;
+
 }
 
-#left{
+#left {
     width: 240px;
     background-color: #f2f2f2;
     height: 335px;
@@ -22,23 +22,123 @@
     box-sizing: border-box;
     border: 2px solid #000;
 }
-
 #vierkantmidden {
-    width: 480px;
-    height: 240px;
-    background-color: white;
-    margin-left:5px;
-    margin-top:-8px;
+    width:480px;
+    height:240px;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 38px;
+    left: 579px;
+}
+#vierkantmidden span#een{
+    position: absolute;
+    top: -4px;
+    left: 11px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #031bab;
+}
+#vierkantmidden span#minuut{
+    position: absolute;
+    top: 10px;
+    left: 42px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #031bab;
+}
+#vierkantmidden span#heerlen{
+    position: absolute;
+    top: 39px;
+    left: 11px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #031bab;
+}
+#vierkantmidden span#intercity{
+    position: absolute;
+    top: -3px;
+    left: 245px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #031bab;
+    letter-spacing: -1px;
+}
+#vierkantmidden span#nederland{
+    position: absolute;
+    top: 94px;
+    left: 12px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #031bab;
+    letter-spacing: -1px;
+}
+#vierkantmidden span#nederland2{
+    position: absolute;
+    top: 131px;
+    left: 12px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #031bab;
+    letter-spacing: -1px;
+}
+#langeblauwelijn {
+    width:480px;
+    height:25px;
+    background-color: #031bab;
+    position: absolute;
+    top: 278px;
+    left: 579px;
+}
+#langeblauwelijn span#hierna {
+    position: absolute;
+    top: 1px;
+    left: 11px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #ffffff
+}
+#langeblauwelijn span#next {
+    position: absolute;
+    top: 1px;
+    left: 74px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #ffffff;
+    font-style: italic;
+}
+#langeblauwelijn span#Venlo {
+    position: absolute;
+    top: 1px;
+    left: 112px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #ffffff;
+    letter-spacing: -1px;
 }
 
-#right{
+#right {
     width:128px;
     height: 335px;
     background-color: #035ce9;
     border: 2px solid #000;
 }
-
-#vierkantrechts span#achttien{
+#vierkantrechts span#spoor {
+    position: absolute;
+    top: 47px;
+    left: 1143px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #035ce9
+}
+#vierkantrechts span#b {
+    position: absolute;
+    top: 72px;
+    left: 1191px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #035ce9;
+}
+#vierkantrechts span#achttien {
     position: absolute;
     top: 64px;
     left: 1125px;
@@ -47,17 +147,7 @@
     font-weight: bold;
     color: #035ce9;
 }
-
-#vierkantrechts span#spoor{
-    position: absolute;
-    top: 47px;
-    left: 1143px;
-    font-size: 10px;
-    font-weight: bold;
-    color: #035ce9;
-}
-
-#vierkantrechts{
+#vierkantrechts {
     width: 96px;
     height: 96px;
     background-color: white;
@@ -65,17 +155,7 @@
     margin-top:30px;
     font-size:48px;
 }
-
-#vierkantrechts span {
-    position: absolute;
-    top: 73px;
-    left: 1190px;
-    font-size: 30px;
-    font-weight: bold;
-    color: #035ce9;
-}
-
-#kleinblauwvierkantje{
+#kleinblauwvierkantje {
     width:20px;
     height:20px;
     margin-left:0;
@@ -85,6 +165,6 @@
 
 body {
     background-image: url("https://gluwebdev.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0216a67a-859e-4730-996f-5d51b31fa395%2Fa139fca1-34b3-4d4f-98f2-f66dad12afdd%2FNSbord.png?table=block&id=b0913567-cbfe-45b3-b7c4-badfe7b019c7&spaceId=0216a67a-859e-4730-996f-5d51b31fa395&width=1420&userId=&cache=v2");
+    background-position: 165px -145px;
     background-repeat: no-repeat;
-    background-position: 165px -145px
 }
