@@ -11,10 +11,10 @@
 <body>
     <div id="container">
         <div id="left">
-            <!-- hier komt de klok -->
+            <div id="clock"></div>
         </div>
         <div id="middle">
-            <div id="vierkantmidden"> <span id="een">1</span> <span id="minuut">minuut</span> <span id="heerlen">Heerlen</span> <span id="intercity">Intercity</span>
+            <div id="vierkantmidden"> <span id="minuut">1 minuut</span> <span id="heerlen">Heerlen</span> <span id="intercity">Intercity</span>
                 <img src="assets/img/ns_logo.png" id="nslogo"/>
                 <img src="assets/img/pixil-frame-0 (3).png" id="trein"/>
             <span id="nederland">via 's-Hertogenbosch, Eindhoven,</span> <span id="nederland2">Weert, Roermond en Sittard</span> </div>
@@ -29,5 +29,35 @@
             </div>
         </div>
     </div>
-</body>
+    <script>
+
+      const interval = setInterval(function(){
+        //hier komt de functie
+        if(document.getElementById("minuut").innerHTML == "1 minuut"){
+
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2,"0");
+            const minutes = String(now.getMinutes()).padStart(2,"0");
+
+            document.getElementById("minuut").innerHTML = hours + ":" + minutes;
+
+        } else {
+            document.getElementById("minuut").innerHTML = "1 minuut";
+        }
+      }, 5000);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </script>
+   </body>
 </html>

@@ -37,28 +37,31 @@ function draw() {
   let minuteAngle = map(minute(), 0, 60, 0, 360);
   let hourAngle = map(hour(), 0, 12, 0, 360);
 
-  stroke(9,67,142);
-
-  // Second hand
-  push();
-  rotate(secondAngle);
-  strokeWeight(2);
-  line(0, 0, 0, -secondsRadius);
-  pop();
-
+  stroke("#04046c");
+  
   // Minute hand
+  stroke("#04046c");
   push();
   strokeWeight(6);
   rotate(minuteAngle);
   line(0, 0, 0, -minutesRadius);
   pop();
-
+  
   // Hour hand
+  stroke("#04046c");
   push();
   strokeWeight(8);
   rotate(hourAngle);
   line(0, 0, 0, -hoursRadius);
   pop();
+  
+    // Second hand
+    stroke("#812531")
+    push();
+    rotate(secondAngle);
+    strokeWeight(2);
+    line(0, 0, 0, -secondsRadius);
+    pop();
 
   // Tick markers around perimeter of clock
   push();

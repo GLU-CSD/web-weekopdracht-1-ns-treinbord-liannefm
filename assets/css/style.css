@@ -47,18 +47,10 @@
     right: 127px;
     width: 237px;
 }
-#vierkantmidden span#een{
-    position: absolute;
-    top: -4px;
-    left: 11px;
-    font-size: 40px;
-    font-weight: bold;
-    color: #04046c;
-}
 #vierkantmidden span#minuut{
     position: absolute;
     top: 10px;
-    left: 42px;
+    left: 9px;
     font-size: 26px;
     font-weight: bold;
     color: #04046c;
