@@ -13,6 +13,11 @@
     height: 335px;
     border: 2px solid #000;
 }
+.p5Canvas{
+    position: absolute;
+    top: 24px;
+    left: 320px;
+}
 
 #middle {
     width: 568px;
